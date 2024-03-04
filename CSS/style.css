@@ -1,0 +1,77 @@
+/* Font Import google.font(poppins)Copy the Embed Link(Import) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'poppins','sans-serif';
+}
+/* -----------------------------nav Bar------------------------------ */
+#navbar{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+}
+.heading{
+    font-size: 1.5em;
+}
+li{
+    padding:1.0em;
+    transition: 2s;
+}
+.nav-link{
+    font-size: 1.2em !important;
+    color: blue !important; 
+    transition: 0.5s !important;
+}
+.nav-link:hover{
+    border-bottom: 3px solid rgb(233, 14, 233) !important;
+    
+}
+.cap{
+    font-size: 1.8em;
+}
+/*------------------------------------- home------------------------ */
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.olo{
+    color: rgb(42, 42, 168);
+    
+    }
+/* ----------------------------about us------------------------------ */
+#about img{
+    width: 25rem ;
+    height: 25rem;
+    border-radius: 50px;
+}
+/* ---------------------------------Service-------------------------- */
+
+.inner{
+    overflow: hidden;
+}
+.card img{
+    height: 233px;
+    transition: 1.5s;
+
+}
+.card img:hover{
+    transform: scale(1.5);
+    transition: 1.5s;
+
+}
+/* ----------------------------------------------contact --------------------------------- */
+
+form{
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2),-2px -2px 5px rgba(0,0,0,0.05);
+    border-radius: 30px;
+
+
+}
